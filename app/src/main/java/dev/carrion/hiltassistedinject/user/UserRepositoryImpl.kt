@@ -1,6 +1,5 @@
 package dev.carrion.hiltassistedinject.user
 
-import dev.carrion.hiltassistedinject.user.UserRepository
 import javax.inject.Inject
 
 class UserRepositoryImpl @Inject constructor() : UserRepository {

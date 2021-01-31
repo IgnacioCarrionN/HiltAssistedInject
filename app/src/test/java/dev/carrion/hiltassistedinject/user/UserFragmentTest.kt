@@ -20,7 +20,6 @@ import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
 import javax.inject.Inject
 
-@UninstallModules(MainModule::class)
 @HiltAndroidTest
 @Config(application = HiltTestApplication::class, manifest = Config.NONE, sdk = [28])
 @RunWith(RobolectricTestRunner::class)
